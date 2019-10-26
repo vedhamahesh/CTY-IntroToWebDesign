@@ -1,0 +1,87 @@
+<style>			
+			#page		{
+							background-color:LightGoldenrodYellow;
+							margin-left: auto;
+							margin-right: auto;
+							border: 2px solid black;
+							width: 740px;
+							height: 550px;						
+						}
+			#header		{	
+							clear: both;
+							margin-left: 220px;
+							margin-right: 220px;
+							background-color:LightGoldenrodYellow;
+							text-align: center;
+							width: 300px;
+							height: 60px;
+							border: 2px solid black;		
+						}
+			:link		{
+							text-align: center;
+							color: blue;
+							text-decoration: none;
+							border: 2px solid black;
+							padding:10;
+						}
+
+			:visited	{
+							color: blue;
+						}
+			:active		{
+							color: red;
+						}			
+			#column1	{	
+							clear: both;
+							background-color:LightGoldenrodYellow;
+							width: 345px;
+							height: 232.5px;
+							padding: 10px;	
+							border: 2px solid black;
+							margin-left: 20px;
+							margin-top: 10px;
+							float: left;							
+						}
+			#column2	{
+							background-color:LightGoldenrodYellow;
+							width: 345px;
+							height: 232.5px;
+							padding: 10px;
+							border: 2px solid black;
+							margin-left: 26px;
+							margin-top: 10px;
+							float: left;							
+						}
+			#footer		{
+							clear: both;
+							background-color:LightGoldenrodYellow;
+							width: 720px;
+							height: 50px;
+							border: 2px solid black;					
+							text-align: center;
+							margin-left: 18px;
+							margin-top: 10px;
+							float: left;
+						}
+			li.navli		{ 	display: inline; padding: 10px;		}
+			li.ol-li		{ 	color: royalblue;		}
+			body			{	
+							background-color:yellow;
+							font-family:Arial,sans-serif;
+						}	
+			img.align_left	{	
+							float: left;
+							margin-top: 10px;
+							margin-right: 10px;
+							margin-bottom: 10px;
+							}
+			img.align_right	{	
+							float: right;	
+							margin-top: 10px;
+							margin-left: 10px;
+							margin-bottom: 10px;
+							}
+			p			{
+							color:blue;
+						}	
+		</style>
