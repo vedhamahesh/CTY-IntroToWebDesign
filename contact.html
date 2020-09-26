@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Waffles' Contact Page</title>
+		<link href="CSS/contact.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+				<h1>Waffles</h1>
+			</div>
+			<ul class="nav">				
+				<li><a href ="index.html">Home</a></li>
+				<li><a href ="about.html">About Me</a></li>
+				<li><a href ="photos.html">Weekly Photos</a></li>
+				<li><a href ="tips_tricks.html">Tips and Tricks</a></li>				
+				<li><a style="color: red;"href ="contact.html">Contact Us</a></li>	
+			</ul>
+			<div id="column1">
+				<form action="mailto:vedha.mahesh@gmail.com" method="post" >
+					<fieldset>
+						<legend>Tell Me About Yourself</legend>
+						<p>What's Your Name? &nbsp;
+						<input type="text" name="name" />
+						</p>
+						<p>How old are you? &nbsp;
+						<input type="text" name="age" />
+						</p>
+						<p>Are you a boy or a girl? &nbsp;
+						<input type="radio" name="gender" value="boy" />Boy
+						<input type="radio" name="gender" value="girl" />Girl
+						</p>
+					</fieldset>
+					<br />
+					<fieldset>
+						<legend>About My Web Site</legend>
+						<p>What were your favorite pages? &nbsp;
+						<input type="checkbox" name="favoritepages" value="Home" />Home
+						<input type="checkbox" name="favoritepages" value="About Me" />About Me
+						<input type="checkbox" name="favoritepages" value="Weekly Photos" />Weekly Photos
+						<input type="checkbox" name="favoritepages" value="Tips and Tricks" />Tips and Tricks
+						</p>
+						<p>Please leave your comments</p>
+						<p>
+						<textarea name="comments" ></textarea>
+						</p>
+					</fieldset>
+					<br />
+					<input type="submit" name="submit" value="Submit" />
+					<input type="reset" name="reset" value="Reset" />
+				</form>
+				
+			</div>
+			<div id="column2">
+				<p>
+					Contact Me at:
+					<a href="mailto:vedha.mahesh@gmail.com">vedha.mahesh@gmail.com</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

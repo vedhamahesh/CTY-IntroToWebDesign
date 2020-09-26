@@ -1,0 +1,82 @@
+<style>			
+			#page		{
+							background-color:LightGoldenrodYellow;
+							margin-left: auto;
+							margin-right: auto;
+							border: 2px solid black;
+							width: 740px;
+							height: 550px;						
+						}
+			#header		{	
+							clear: both;
+							margin-left: 220px;
+							margin-right: 220px;
+							background-color:LightGoldenrodYellow;
+							text-align: center;
+							width: 300px;
+							height: 60px;
+							border: 2px solid black;		
+						}
+			:link		{
+							text-align: center;
+							color: red;
+							text-decoration: none;
+							border: 2px solid black;
+							padding:10;
+						}
+
+			:visited	{
+							color: blue;
+						}
+			:active		{
+							color: red;
+						}	
+			table			{
+							color:purple;
+						}				
+			#column1	{	
+							clear: both;
+							background-color:LightGoldenrodYellow;
+							width: 345px;
+							height: 245px;
+							padding: 10px;	
+							border: 2px solid black;
+							margin-left: 20px;
+							margin-top: 10px;
+							float: left;							
+						}
+			#column2	{	
+							background-color:LightGoldenrodYellow;
+							width: 345px;
+							height: 245px;
+							padding: 10px;	
+							border: 2px solid black;
+							margin-left: 20px;
+							margin-top: 10px;
+							float: left;							
+						}
+			li			{ 	display: inline; padding: 10px;		}
+			body			{	
+							background-color:yellow;
+							font-family:Arial,sans-serif;
+						}	
+			img.align_left	{	
+							float: left;
+							margin-top: 10px;
+							margin-right: 10px;
+							margin-bottom: 10px;
+							}
+			img.align_right	{	
+							float: right;	
+							margin-top: 10px;
+							margin-left: 10px;
+							margin-bottom: 10px;
+							}
+			p			{
+							color:blue;
+						}	
+			body	{ font-family: sans-serif; }
+			table	{ font-famly: sans-serif; border: 1px solid black; border-collapse: collapse; }
+			td, th 	{ border: 1px solid black; }
+			
+		</style>
